@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream> 
 #include<fstream>
 
 using namespace std;
@@ -17,9 +17,17 @@ int main()
 	else
 		cout<<"This file doesnt exist.";
 
-	int filesize = sizeof(FILE);
+	   int filesize = sizeof(FILE);
    cout << "Size of file is "<< filesize;
    int filesize2 = sizeof(FILE*);
    cout << "Size of *file is "<< filesize2;
+   int sizeint = sizeof(int);
+   cout << sizeint;
+   int sizelong = sizeof(long);
+   cout << sizelong;
+   int sizeint2 = sizeof(int*);
+   cout << sizeint2;
+   int sizelong2 = sizeof(long*);
+   cout << sizelong2;
 	return 0;
 }
