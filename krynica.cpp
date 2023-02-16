@@ -22,12 +22,12 @@ int main()
    int filesize2 = sizeof(FILE*);
    cout << "Size of *file is "<< filesize2;
    int sizeint = sizeof(int);
-   cout << sizeint;
+   cout << sizeint<< endl;
    int sizelong = sizeof(long);
-   cout << sizelong;
-   int sizeint2 = sizeof(int*);
-   cout << sizeint2;
-   int sizelong2 = sizeof(long*);
-   cout << sizelong2;
+   cout << sizelong<< endl;
+   int sizeint2 = sizeof(int);
+   cout << sizeint2 << endl;
+   int sizelong2 = sizeof(long);
+   cout << sizelong2<< endl;
 	return 0;
 }
